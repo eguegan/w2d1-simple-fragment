@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         fragmentTransaction.add(R.id.am_frame_1, new BlankFragment());
-        
+
 
         fragmentTransaction.commit();
     }
